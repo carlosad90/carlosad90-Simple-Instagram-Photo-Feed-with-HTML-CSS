@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #eee;
+}
+
+.feed{
+    background-color: white;
+}
+
+.feed-section-header{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.feed-section-header > h1{
+    width: 700px;
+    margin: auto;
+}
+
+.feed-section-body{
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.feed-image{
+    border-bottom: 1px solid #ececec;
+}
+
+.feed-image > img {
+    display: block;
+    width: 100%;
+}
+
+.feed-title-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 15px;
+    border-bottom: 1px solid #ececec;
+}
+
+.feed-title-info > p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.feed-title-info > span{
+    color: grey;
+}
+
+.feed-description{
+    padding:15px 20px;
+}
